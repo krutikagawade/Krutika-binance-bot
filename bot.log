@@ -1,0 +1,24 @@
+2025-11-20 23:04:57,924 | INFO | client | MOCK MARKET ORDER: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.001, 'status': 'FILLED'}
+2025-11-20 23:04:57,925 | INFO | market_orders | Result: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.001, 'status': 'FILLED'}
+2025-11-20 23:05:28,891 | INFO | client | MOCK LIMIT ORDER: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'qty': 0.001, 'price': 65000.0, 'status': 'NEW'}
+2025-11-20 23:05:28,891 | INFO | limit_orders | Result: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'qty': 0.001, 'price': 65000.0, 'status': 'NEW'}
+2025-11-20 23:05:46,388 | INFO | client | MOCK MARKET ORDER: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.0033333333333333335, 'status': 'FILLED'}
+2025-11-20 23:05:46,396 | INFO | twap | TWAP Slice 1/3: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.0033333333333333335, 'status': 'FILLED'}
+2025-11-20 23:05:48,398 | INFO | client | MOCK MARKET ORDER: {'orderId': 1002, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.0033333333333333335, 'status': 'FILLED'}
+2025-11-20 23:05:48,399 | INFO | twap | TWAP Slice 2/3: {'orderId': 1002, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.0033333333333333335, 'status': 'FILLED'}
+2025-11-20 23:05:50,401 | INFO | client | MOCK MARKET ORDER: {'orderId': 1003, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.0033333333333333335, 'status': 'FILLED'}
+2025-11-20 23:05:50,401 | INFO | twap | TWAP Slice 3/3: {'orderId': 1003, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.0033333333333333335, 'status': 'FILLED'}
+2025-11-20 23:06:31,872 | INFO | client | MOCK LIMIT ORDER: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 60000.0, 'status': 'NEW'}
+2025-11-20 23:06:31,873 | INFO | grid | Grid order: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 60000.0, 'status': 'NEW'}
+2025-11-20 23:06:31,873 | INFO | client | MOCK LIMIT ORDER: {'orderId': 1002, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 62500.0, 'status': 'NEW'}
+2025-11-20 23:06:31,873 | INFO | grid | Grid order: {'orderId': 1002, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 62500.0, 'status': 'NEW'}
+2025-11-20 23:06:31,874 | INFO | client | MOCK LIMIT ORDER: {'orderId': 1003, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 65000.0, 'status': 'NEW'}
+2025-11-20 23:06:31,874 | INFO | grid | Grid order: {'orderId': 1003, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 65000.0, 'status': 'NEW'}
+2025-11-20 23:06:31,874 | INFO | client | MOCK LIMIT ORDER: {'orderId': 1004, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 67500.0, 'status': 'NEW'}
+2025-11-20 23:06:31,875 | INFO | grid | Grid order: {'orderId': 1004, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 67500.0, 'status': 'NEW'}
+2025-11-20 23:06:31,875 | INFO | client | MOCK LIMIT ORDER: {'orderId': 1005, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 70000.0, 'status': 'NEW'}
+2025-11-20 23:06:31,875 | INFO | grid | Grid order: {'orderId': 1005, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'qty': 0.001, 'price': 70000.0, 'status': 'NEW'}
+2025-11-20 23:24:12,268 | INFO | client | MOCK MARKET ORDER: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.01, 'status': 'FILLED'}
+2025-11-20 23:24:12,269 | INFO | market_orders | Result: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'qty': 0.01, 'status': 'FILLED'}
+2025-11-20 23:24:24,252 | INFO | client | MOCK LIMIT ORDER: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'qty': 0.01, 'price': 65000.0, 'status': 'NEW'}
+2025-11-20 23:24:24,253 | INFO | limit_orders | Result: {'orderId': 1001, 'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'qty': 0.01, 'price': 65000.0, 'status': 'NEW'}
