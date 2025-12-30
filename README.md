@@ -1,1 +1,1 @@
-# Krutika-binance-bot
+#binance-bot
